@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Raleway"
+      rel="stylesheet">
+    <title>Tic Tac Toe</title>
+    <style>
+
+      body {
+          min-height: 96vh;
+      background-image: url(marsbg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 500px;
+      margin: auto;
+      }
+/*  body {
+         min-height: 96vh;
+        background-image: url(marsbg.png);
+        background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 500px;
+      margin: auto;
+      align-items: left;
+      }*/
+
+      h1 {
+        border-bottom: 1px solid white;
+        font-family: 'Raleway', sans-serif;
+        color: orange;
+      }
+      h2 {
+        font-family: 'Comfortaa', cursive;
+        color: orange;
+      }
+      .Square {
+        height: 160px;
+        width: 160px;
+        background: rgba(128, 131, 135, 0.5);
+        font-size: 70pt;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        margin: auto;
+      }
+      #message {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 40px;
+        color: #fff;
+      }
+      button {
+        float: right;
+        font-family: 'Comfortaa', cursive;
+        font-size: 18px;
+        padding: 10px;
+        background: rgba(128, 131, 135, 0.8);
+        border-radius: 50px;
+        border-style: none;
+        color: white;
+      }
+    </style>
+  </head>
+
+
+  <body onload="startGame()">
+    <h1>Tic Tac Toe .</h1>
+    <button onclick="startGame()">Start Over</button>
+     <button onclick="history.back()">back to base</button>
+    <div id="message">Message here.</div>
+    <table border="1">
+      <tr>
+        <td class="Square" id="s1" onClick="nextMove(this)"></td>
+        <td class="Square" id="s2" onClick="nextMove(this)"></td>
+        <td class="Square" id="s3" onClick="nextMove(this)"></td>
+      </tr>
+      <tr>
+        <td class="Square" id="s4" onClick="nextMove(this)"></td>
+        <td class="Square" id="s5" onClick="nextMove(this)"></td>
+        <td class="Square" id="s6" onClick="nextMove(this)"></td>
+      </tr>
+      <tr>
+        <td class="Square" id="s7" onClick="nextMove(this)"></td>
+        <td class="Square" id="s8" onClick="nextMove(this)"></td>
+        <td class="Square" id="s9" onClick="nextMove(this)"></td>
+      </tr>
+    </table>
+
+    <h2>Made with <3</h2>
+
+    <script src="playermain.js"></script>
+
+  </body>
+</html>
