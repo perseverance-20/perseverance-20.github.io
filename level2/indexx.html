@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <style>
+      body {
+     /* background-color: #3b444b;
+
+*/      
+        background-image: url(marsbg.png);
+        background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 500px;
+      margin: auto;
+      align-items: left;
+      }
+
+    </style>
+</head>
+
+
+<meta
+name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<input type="checkbox" id="difficulty" checked />
+<input type="checkbox" id="sound" />
+<input type="checkbox" id="first" />
+
+<input type="checkbox" id="start" />
+
+<form id="tictactoe">  
+  <input type="radio" name="cell-0" id="cell-0-x" />
+  <input type="radio" name="cell-0" id="cell-0-o" />
+  <input type="radio" name="cell-1" id="cell-1-x" />
+  <input type="radio" name="cell-1" id="cell-1-o" />
+  <input type="radio" name="cell-2" id="cell-2-x" />
+  <input type="radio" name="cell-2" id="cell-2-o" />
+  <input type="radio" name="cell-3" id="cell-3-x" />
+  <input type="radio" name="cell-3" id="cell-3-o" />
+  <input type="radio" name="cell-4" id="cell-4-x" />
+  <input type="radio" name="cell-4" id="cell-4-o" />
+  <input type="radio" name="cell-5" id="cell-5-x" />
+  <input type="radio" name="cell-5" id="cell-5-o" />
+  <input type="radio" name="cell-6" id="cell-6-x" />
+  <input type="radio" name="cell-6" id="cell-6-o" />
+  <input type="radio" name="cell-7" id="cell-7-x" />
+  <input type="radio" name="cell-7" id="cell-7-o" />
+  <input type="radio" name="cell-8" id="cell-8-x" />
+  <input type="radio" name="cell-8" id="cell-8-o" />
+
+  <div id="menu" class="scrim">
+    <div class="center">
+      <h1>Welcome to Level 2 Tic-Tac-Toe</h1>
+      <div>
+        <h2>Difficulty</h2>
+        <div class="toggle-group">
+          <span>Beginner</span>
+          <label for="difficulty" class="toggle"></label>
+          <span>Advanced</span>
+        </div>
+        
+        <h2>First turn</h2>
+        <div class="toggle-group">
+          <span>Player</span>
+          <label for="first" class="toggle"></label>
+          <span>Computer</span>
+        </div>
+        <label for="start" id="start-button" class="btn">Start Game</label>
+      </div>
+    </div>
+  </div>
+
+<h1>TIC-TAC-TOE-2</h1>
+
+
+  <div id="board" class="center">
+    <div class="tile" id="tile-0">
+      <label for="cell-0-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-1">
+      <label for="cell-1-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-2">
+      <label for="cell-2-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-3">
+      <label for="cell-3-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-4">
+      <label for="cell-4-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-5">
+      <label for="cell-5-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-6">
+      <label for="cell-6-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-7">
+      <label for="cell-7-x"></label>
+      <div></div>
+    </div>
+    <div class="tile" id="tile-8">
+      <label for="cell-8-x"></label>
+      <div></div>
+    </div>
+  </div>
+  <div id="label-computer" class="btn">
+    Computer Move!
+    <label for="cell-0-o"></label>
+    <label for="cell-1-o"></label>
+    <label for="cell-2-o"></label>
+    <label for="cell-3-o"></label>
+    <label for="cell-4-o"></label>
+    <label for="cell-5-o"></label>
+    <label for="cell-6-o"></label>
+    <label for="cell-7-o"></label>
+    <label for="cell-8-o"></label>
+  </div>
+
+   <div id="label-computerr" class="btn" >
+    
+   <input type="reset" for="tictactoe" value="Restart Game!" class="btnn">
+  </div>
+     <!--  <label for="cell-0-x"></label>
+
+      <label for="cell-1-x"></label>
+
+      <label for="cell-2-x"></label>
+
+      <label for="cell-3-x"></label>
+  
+      <label for="cell-4-x"></label>
+
+      <label for="cell-5-x"></label>
+
+      <label for="cell-6-x"></label>
+
+      <label for="cell-7-x"></label>
+
+      <label for="cell-8-x"></label> -->
+
+    <!--  $("cell-0-x").text(boardCenterPlaneA[0]);
+    $("cell-1-x").text(boardCenterPlaneA[1]);
+    $("cell-2-x").text(boardCenterPlaneA[2]);
+    $("cell-3-x").text(boardCenterPlaneA[3]);
+    $("cell-4-x").text(boardCenterPlaneA[4]);
+    $("cell-5-x").text(boardCenterPlaneA[5]);
+    $("cell-6-x").text(boardCenterPlaneA[6]);
+    $("cell-7-x").text(boardCenterPlaneA[7]);
+    $("cell-8-x").text(boardCenterPlaneA[8]); -->
+
+
+  <!-- <div id="label-computerr" class="btn">
+    <button onclick="history.back()">BACK TO BASE</a></button>
+  </div> -->
+
+
+  <div id="end" class="scrim">
+    <div id="message" class="center">
+      <div>
+        <input type="reset" for="tictactoe" value="Play again">
+      </div>
+    </div>
+  </div>
+</form>
+
+<!-- <h1>TIC-TAC-TOE-2</h1> -->
+<div class="button-holder">
+            <button onclick="history.back()">BACK TO BASE</button>
+ </div>
+
+
+
+
+</body>
+</html>
