@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>tic tac toe tactic</title>
+  <link rel="stylesheet" href="./css/tictactoetactics.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+
+  <style>
+      body {
+     /* background-color: #3b444b;
+
+*/      
+        background-image: url(marsbg.png);
+        background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 500px;
+      margin: auto;
+      align-items: left;
+      }
+
+    </style>
+
+</head>
+
+<body>
+  <h3></h3>
+  <div id="board" class="container">
+    <!-- x vs o/ winner alert! -->
+    <div class="message">
+      <span id="winner">X vs O</span>
+    </div>
+
+    <!-- board/planes -->
+    <div>
+      <table id="boardCenterPlaneA" class="show">
+        <tbody>
+          <tr>
+            <td class="cellA" id="cellA0a">t</td>
+            <td class="cellA" id="cellA1b">i</td>
+            <td class="cellA" id="cellA2c">c</td>
+          </tr>
+          <tr>
+            <td class="cellA" id="cellA3d">t</td>
+            <td class="cellA" id="cellA4e">a</td>
+            <td class="cellA" id="cellA5f">c</td>
+          </tr>
+          <tr>
+            <td class="cellA" id="cellA6g">t</td>
+            <td class="cellA" id="cellA7h">o</td>
+            <td class="cellA" id="cellA8i">e</td>
+          </tr>
+        </tbody>
+      </table>
+     
+      <div class="info">
+        <span id="turn">Unbeatable Tic-Tac-Toe-3</span>
+        <div class="infoo">
+        <span id="turnn">Click to Start Game</span>
+      </div>
+        <div class="button-holder">
+        <a href="#" id="restartButton">START GAME </a>
+          <div class="abc"></div>
+          <button onclick="history.back()">BACK TO BASE</button>
+        
+      </div>
+    </div>
+    </div>
+
+    <!-- control buttons -->
+    <div class="control">
+      <tbody id="control">
+        <tr>
+          <a href="#" id="orangeButton"></a>
+        </tr>
+      </tbody>
+    </div>
+  </div>
+  <!-- audio -->
+  <audio id="jump" src="sounds/jump.mov"></audio>
+  <audio id="error" src="sounds/error.mov"></audio>
+  <audio id="win" src="sounds/win.mov"></audio>
+  <script src="js/tictactoetactics.js"></script>
+  
+</body>
+
+</html>

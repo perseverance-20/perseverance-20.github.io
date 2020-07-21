@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 96vh;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: helvetica, arial;
+    border: display: center;
+    color: gray;
+}
+
+.message {
+    height: 200px;
+    width: 200px;
+    border: 0px solid red;
+    padding: 30px 0;
+    font-size: 30px;
+    color: orange;
+    font-size: 60px;
+    vertical-align: center;
+    position: absolute;
+    left:220px;
+    top:300px;
+}
+
+.info {
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    font-size: 58px;
+    list-style: none;
+    border: 0px dotted red;
+    color: orange;
+
+}
+
+.infoo {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    font-size: 25px;
+    list-style: none;
+    border: 0px dotted red;
+    color: orange;
+    position: absolute;
+    top:570px;
+
+}
+
+
+.abc{
+    color: white;
+    background-color: white;
+}
+
+
+.control {
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    border: px dotted yellow;
+}
+
+#board {
+    border: 0px dotted gray;
+    font-family: arial, helvetica;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#board > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#boardCenterPlaneA {
+    width: 400px;
+    height: 300px;
+    border: 0px dotted blue;
+    margin: 0 auto;
+    position: absolute;
+    top: 180px;
+}
+
+.cellA {
+    border-radius: 10%;
+    background-color: dimgrey;
+    font-family: arial, helvetica;
+    color: white;
+    font-size: 100px;
+}
+
+.cellA:hover {
+    background-color: gray;
+}
+
+
+.hidden {
+    display: none;
+}
+
+td {
+    width: 125px;
+    height: 125px;
+}
+
+
+
+.button-holder {
+  display: flex;
+  width: 70%;
+  margin: 2em auto;
+  justify-content: space-evenly;
+}
+
+button {
+  outline: none;
+  border: 4px ;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #027D9B;
+  transition: all 0.2s ease-in-out;
+  border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top:620px;
+    left:725px;
+
+
+}
+
+
+#restartButton {
+
+    background-color: #027D9B;
+    border: 4px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+    position: absolute;
+    top: 620px;
+    left: 575px;
+      /*  width: 100px;*/
+}
+/*
+#restartButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background: -o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: -ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3', GradientType=0);
+    background-color: #408c99;
+}*/
+
+#restartButton:active {
+    position: absolute;
+    top: 620px;
+}
+
+
+
