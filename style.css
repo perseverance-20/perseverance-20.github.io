@@ -175,7 +175,7 @@ margin-bottom: 15px;
 display: block; }
 
 
-@media screen and (max-width: 1248px){
+@media screen and (min-width: 1248px){
   #height{
     height: 80px;
 
