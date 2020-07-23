@@ -1,0 +1,213 @@
+
+
+.outer{
+  background-color: #eaeaea;
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.inner1{
+  min-height: 10em;
+    display: table-cell;
+    vertical-align: middle 
+  margin-top: 15vh;
+  margin: auto;
+  background-color: white;
+  height: 95%;
+  width: 30%;
+  padding:2px;
+  text-align: center;
+
+}
+
+
+.inner2{
+  min-height: 10em;
+    display: table-cell;
+    vertical-align: middle 
+  margin-top: 15vh;
+  margin: auto;
+  background-color: black;
+  height: 95%;
+  width: 70%;
+
+}
+
+h3{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  height: 220px;
+  width: 45%;
+}
+
+#vs{
+  margin-top: 90px;
+}
+
+.imgholder{
+  text-align: center;
+  display: flex;
+}
+
+.field label{
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: block;
+}
+.field ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #8c8c8c;
+  border-radius: 2px;
+  overflow: hidden;
+  font-size: 15px; 
+}
+
+.field ul li {
+  float: left;
+  padding: 10px 8px;
+  border-right: 1px solid #8c8c8c;
+  cursor: pointer;
+  color: #8c8c8c; 
+}
+#inline-options{
+  display: flex;
+}
+.field{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#size-increase{
+  font-size: 20px;
+}
+#newgame {
+  background-color: #52d29d;
+  border: none;
+  padding: 13px 26px;
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: 'Gloria Hallelujah', cursive;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+#textSize{
+  font-size:18px;
+  padding:10px;
+  text-align: left;
+}
+.white {
+  background: LightGray;
+  text-align: center;
+  background-color: lightgrey;
+  font-size: 20px;
+  margin-top: 2%;
+  width:90%;
+  padding:10px;
+  display: inline-block;
+}
+
+#board_wrap{
+  text-align: center;
+}
+
+.end-buttons{
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+}
+
+
+.boxx{
+  background: MediumSeaGreen;
+  text-align: center;
+  font-size: medium;
+  width: 150px;
+  height: 30px;
+  padding: 7px;
+  font-size: 1.0;
+  color:white;
+  border-radius: 2px;
+
+}
+
+.boxx a{
+  color:white;
+}
+
+
+.field ul li:hover {
+  background-color: #b7b7b7;
+  color: #fff; }
+.field ul li.active {
+  background-color: #8c8c8c;
+  color: #fff; }
+.field ul li:last-child {
+  border-right: none; }
+.field .starting_player_choices ul li {
+width: 50%;
+text-align: center; }
+.field label {
+font-weight: 600;
+margin-bottom: 15px;
+display: block; }
+
+
+@media screen and (min-width: 1248px){
+  #height{
+    height: 80px;
+
+  }
+
+
+img{
+  height: 230px;
+  width: 48%;
+}
+
+  .white {
+
+  font-size: 23px;}
+
+  .inner1{
+padding:4px;
+ 
+}
+
+.end-buttons{
+
+  padding:30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
