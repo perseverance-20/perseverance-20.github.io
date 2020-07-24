@@ -3,7 +3,7 @@
   
  ##PROJECT: ENTERTAIN THE CREW
  
- ###About the project:
+###About the project:
  Engaging the Crew by Using Minimax algorithm to build an unbeatable Tic Tac Toe game powered by AI.
     
     This project is made under the `Microsoft Mars colonization program` organized by Microsoft.
@@ -18,6 +18,6 @@
 
 <div align="center">
 
-<img src="logo.png" width="300" height="300">
+<img src="logo.png" width="200" height="200">
 </div>
 
