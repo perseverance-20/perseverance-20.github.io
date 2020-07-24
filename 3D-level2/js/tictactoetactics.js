@@ -363,49 +363,6 @@ function bestMove() {
     return;
 }
 
-
-//minimax reccursive algorithms called by bestMove
-function minimax(board, depth, isMaximizing) {
-    let result1 = gameWon();
-    if (result1 !== false || depth>2) {
-        
-        if (result1 != false && isMaximizing)
-            return -1
-        else if (result1 != false && !(isMaximizing))
-            return 1
-        else
-            return 0;
-    }
-
-    if (isMaximizing) {
-        let bestScore = -Infinity;
-        for (let i = 0; i < 9; i++) {
-            // Is the spot available?
-            if (board[i] == "") {
-                board[i] = "O";
-                let score = minimax(board, false);
-                board[i] = "";
-                if (score > bestScore)
-                    bestScore = score;
-            }
-        }
-        return bestScore;
-    } else {
-        let bestScore = Infinity;
-        for (let i = 0; i < 9; i++) {
-            // Is the spot available?
-            if (board[i] == "") {
-                board[i] = "X";
-                let score = minimax(board, depth + 1, true);
-                board[i] = "";
-                if (score < bestScore)
-                    bestScore = score;
-            }
-        }
-        return bestScore;
-    }
-}
-
 //funtion to translate letter to colour used in displayPlane function
 function translateLetterToColor(letter) {
     switch (letter) {
