@@ -1,7 +1,8 @@
 # PROJECT: ENTERTAIN THE CREW
   This project is a part of Engage'20 Mentorship Program. 
   
-  check presentation: <a>perseverance.pptx</a>
+  check presentation: perseverance.pptx
+  <br></br>
   check Technical Documents:
  
 ### About the project:
