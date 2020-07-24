@@ -67,6 +67,7 @@ Resources to learn Git:
 -  https://try.github.io/
  
  ## 💼 User Manual
+ checkout our presentation ("perseverance.pptx")
  
  
  ## 👬 Owner
