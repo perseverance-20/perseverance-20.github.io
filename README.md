@@ -1,7 +1,7 @@
 # This project is a part of Engage'20 Mentorship Program. 
   OPEN SOURCE CONTEST - STUDENT CODE IN
   
- ##PROJECT: ENTERTAIN THE CREW
+##PROJECT: ENTERTAIN THE CREW
  
 ###About the project:
  Engaging the Crew by Using Minimax algorithm to build an unbeatable Tic Tac Toe game powered by AI.
