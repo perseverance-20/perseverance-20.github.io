@@ -18,6 +18,6 @@
 
 <div align="center">
 
-<img src="logo.jpg" width="300" height="300">
+<img src="logo.jpg" width="350" height="300">
 </div>
 
