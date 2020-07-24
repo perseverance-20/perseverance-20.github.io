@@ -1,5 +1,8 @@
 # PROJECT: ENTERTAIN THE CREW
   This project is a part of Engage'20 Mentorship Program. 
+  
+  check presentation: <a>perseverance.pptx</a>
+  check Technical Documents:
  
 ### About the project:
  Engaging the Crew by Using Minimax algorithm to build an unbeatable Tic Tac Toe game powered by AI.
