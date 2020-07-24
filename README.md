@@ -71,9 +71,9 @@ Resources to learn Git:
  
  
  ## 👬 Owner
- <a href="https://github.com/oshinsaini"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Oshin Saini</b></sub></a><br />
-
-<a href="https://github.com/oshinsaini"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Siddhi Mishra</b></sub></a><br />
+<img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/>
+<a href="https://github.com/oshinsaini"><br /><sub><b>Oshin Saini</b></sub></a><br />
+<a href="https://github.com/oshinsaini"><br /><sub><b>Siddhi Mishra</b></sub></a><br />
 
 ## 🧐 View Project
 ⭐ [Check out the website of Perseverance-20](https://perseverance-20.github.io/)
