@@ -10,7 +10,7 @@
     versions of the same game we are providing on our website. The main highlight of this project is we have developed a new class of a game using the same set of rules of 
     tic-tac-toe but have a  3D version with some additional features and rules.
 
-   In this project our goal is to take traditional `tic-tac-toe` to another level. For this purpose we are aimed to implement some currently used algorithms to shift the 2 player
+   In this project our goal is to take traditional tic-tac-toe to another level. For this purpose we are aimed to implement some currently used algorithms to shift the 2 player
    mode to one player by making one move to be played by computer. In our second phase of development we aimed to make the game more interesting and increase the difficulty level 
    of game by proving some additional features and in last phase, we train our computer to make move in our new design game with different level of smartness. 
 
@@ -75,6 +75,7 @@ Resources to learn Git:
 
 <a href="https://github.com/oshinsaini"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Siddhi Mishra</b></sub></a><br />
 
+## 🧐 View Project
 ⭐ [Check out the website of Perseverance-20](https://perseverance-20.github.io/)
  
  
