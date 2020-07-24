@@ -48,7 +48,7 @@ To make a fun and interacting game with exciting rules! A platform to learn whil
 ## 🤷 Project Structure
 <div align="center">
 
-<img src="ps.jpg" width="400" height="300">
+<img src="ps.jpg" width="600" height="450">
 </div>
 
 ## 🚀 Steps to setup development environment
