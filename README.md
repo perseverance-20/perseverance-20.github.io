@@ -18,5 +18,62 @@
 
 <img src="logo.jpg" width="350" height="300">
 </div>
+
 ⭐ [Check out the website of Perseverance-20](https://perseverance-20.github.io/)
+
+## 📋 Table of Contents
+ ➡️   [Vision](#-vision)
+ 
+ ➡️   [Tech Stack](#-tech-stack)
+
+ ➡️   [Project Structure](#-project-structure)
+ 
+ ➡️   [Setup Development Environment](#-steps-to-setup-development-environment)
+ 
+ ➡️   [Learning Resources](#-learning-resources)
+ 
+ ➡️   [User Manual](#-user-manual)
+ 
+ ➡️   [Owner](#-owner)
+ 
+ ## 👩‍ Vision
+To make a fun and interacting game with exciting rules! A platform to learn while you enjoy!
+
+## 🔆 Tech Stack
+-  HTML
+-  CSS
+-  JavaScript
+-  GitHub
+
+## 🤷 Project Structure
+<div align="center">
+
+<img src="ps.jpg" width="400" height="300">
+</div>
+
+## 🚀 Steps to setup development environment
+1.  Clone the repo
+ ```bash
+ git clone github.com/your_username/perseverance-20.git
+ ```
+ 2. Open the folder in your favorite code editor and start adding modifications.
+ 3. Or just view it on our site "https://perseverance-20.github.io".
+
+## 📝 Learning Resources
+
+Read these articles to get a quick grab on github pages:
+- [GitHub Pages](https://guides.github.com/features/pages/)
+
+Resources to learn Git:
+-  https://try.github.io/
+ 
+ ## 💼 User Manual
+ 
+ 
+ ## 👬 Owner
+ <a href="https://github.com/oshinsaini"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Oshin Saini</b></sub></a><br />
+
+<a href="https://github.com/oshinsaini"><img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/><br /><sub><b>Siddhi Mishra</b></sub></a><br />
+ 
+ 
 
