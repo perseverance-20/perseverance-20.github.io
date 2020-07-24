@@ -72,7 +72,7 @@ Resources to learn Git:
  
  ## 👬 Owner
 <img src="https://avatars3.githubusercontent.com/u/44302373?s=460&u=efaafa72f4d83d40b66fc68258d14cebbf1d7de0&v=4" width="100px;" alt=""/>
-<a href="https://github.com/oshinsaini"><b>Oshin Saini</b></a><br /><a href="https://github.com/oshinsaini"><b>Siddhi Mishra</b></a>
+<a href="https://github.com/oshinsaini"><b>Oshin Saini</b></a><br /><a href="https://github.com/Sidsag"><b>Siddhi Mishra</b></a>
 
 
 ## 🧐 View Project
