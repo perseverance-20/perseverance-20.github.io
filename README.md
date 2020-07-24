@@ -3,7 +3,7 @@
   
   check presentation: perseverance.pptx
   
-  check Technical Documents:
+  check Technical Documents: Technical Document Perseverence'20 
  
 ### About the project:
  Engaging the Crew by Using Minimax algorithm to build an unbeatable Tic Tac Toe game powered by AI.
