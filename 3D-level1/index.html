@@ -3,34 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>3D tic tac toe </title>
+  <title>tic tac toe tactic</title>
   <link rel="stylesheet" href="./css/tictactoetactics.css">
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-
-
- <style>
-      body {
-     /* background-color: #3b444b;
-
-*/        min-height: 97vh;
-       /*   max-height: 130vh;*/
-        background-image: url(marsbg.png);
-        background-size: cover;
-      background-repeat: no-repeat;
-      max-width: 500px;
-      margin: auto;
-      align-items: left;
-      }
-
-    </style>
-    
 </head>
 
 <body>
-  <h1>3D-Tic-Tac-Toe</h1>
+  <h3></h3>
   <div id="board" class="container">
-
-
     <!-- x vs o/ winner alert! -->
     <div class="message">
       <span id="winner">X vs O</span>
@@ -153,15 +133,10 @@
         </tbody>
       </table>
       <div class="info">
-        <li><span id="turn">X's turn</span></li>
-        <div class="button-holder">
-        <a href="#" id="restartButton">start New Game!</a>
-           <button onclick="history.back()">Back to Base</button>
-         </div>
+        <li><span id="turn">t a c t i c</span></li>
+        <li><a href="#" id="restartButton">restart</a></li>
       </div>
-      
     </div>
-
 
     <!-- control buttons -->
     <div class="control">
@@ -189,16 +164,13 @@
       </tbody>
     </div>
   </div>
-
-
-
   <!-- audio -->
   <audio id="jump" src="sounds/jump.mov"></audio>
   <audio id="error" src="sounds/error.mov"></audio>
   <audio id="win" src="sounds/win.mov"></audio>
+  
   <script src="js/tictactoetactics.js"></script>
-
-
+  
 </body>
 
 </html>
